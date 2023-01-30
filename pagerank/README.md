@@ -1,5 +1,4 @@
-* I tried different methods, I first did single changes to compare the impacts of each one of them on the result, and then chose the methods that gave me the best impacts.
-* The steps that didn't work well are when I changed the size and number of the filters for the convolutional layer, when I changed the size of the pooling layer and when I changed the value for the dropout.
-* The steps that worked well are when I added another convolutional and pooling layer, when I added another hidden layer, and when I removed the dropout. So I used those 3 changes in order to get the best accuracy (0.9403).
-* I noticed that the main step to do in order to improve the accuracy is to add hidden, convolutional and pooling layers, as for the dropouts, it is better not to use them when we have a small number of layers.
+Write an AI to rank web pages by importance.
 
+When search engines like Google display search results, they do so by placing more “important” and higher-quality pages higher in the search results than less important pages. 
+For that reason, the PageRank algorithm was created by Google’s co-founders. In PageRank’s algorithm, a website is more important if it is linked to by other important websites, and links from less important websites have their links weighted less. This definition seems a bit circular, but it turns out that there are multiple strategies for calculating these rankings.
