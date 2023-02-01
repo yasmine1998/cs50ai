@@ -1,5 +1,5 @@
-* I tried different methods, I first did single changes to compare the impacts of each one of them on the result, and then chose the methods that gave me the best impacts.
-* The steps that didn't work well are when I changed the size and number of the filters for the convolutional layer, when I changed the size of the pooling layer and when I changed the value for the dropout.
-* The steps that worked well are when I added another convolutional and pooling layer, when I added another hidden layer, and when I removed the dropout. So I used those 3 changes in order to get the best accuracy (0.9403).
-* I noticed that the main step to do in order to improve the accuracy is to add hidden, convolutional and pooling layers, as for the dropouts, it is better not to use them when we have a small number of layers.
+Write an AI to generate crossword puzzles.
 
+Given the structure of a crossword puzzle (i.e., which squares of the grid are meant to be filled in with a letter), and a list of words to use, the problem becomes one of choosing which words should go in each vertical or horizontal sequence of squares. We can model this sort of problem as a constraint satisfaction problem. Each sequence of squares is one variable, for which we need to decide on its value (which word in the domain of possible words will fill in that sequence).
+
+![image](https://user-images.githubusercontent.com/53656355/216117317-38b8034e-38a8-4d5f-9b94-a7eeef699d3e.png)
